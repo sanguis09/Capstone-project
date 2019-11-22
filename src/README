@@ -1,1 +1,14 @@
 This is the code for data exploration
+
+Data Cleaning 
+
+This file contains code that cleans data
+
+Data Exploration
+
+This is the main file that contains all code from analysis to modeling
+
+Final Script
+
+This file contains only gbm model (best model of all) and all analysis/transformation required
+

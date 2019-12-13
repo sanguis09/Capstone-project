@@ -1,7 +1,7 @@
 # Capstone-project
 
 ## Research Objective/ Challenge:
-Because of the expanding market in PP, the client would like to increase the production efficiency of PP plants, specifically its R700 product line in Texas. The research objective is to establish the real-time reactor powder Melt Flow Index (MI) prediction model for R700 product line based on important factors provided using a python program and achieve an above 80% average accuracy.
+The research objective is to establish the real-time reactor powder Melt Flow Index (MI) prediction model  based on important factors provided using a python program and achieve an above 80% average accuracy.
 Importance of challenge:
 By building this more precise model, the team hopes to replace traditional tester, which is to test the Powder MI every four hours manually to ensure that it is within the acceptable range. By solving the challenge, the optimized model will reduce the production cost, optimize manufacturing, and prevent wasteful production. Introducing the automation process will simplify the production cycle, reduce labor cost, and better utilize production capacity. In the long run, by applying the automation process that no other competitors has to all production lines, Formosa Plastics would be able to improve production volumes and achieve sustainable growth with the unique competitive advantage.
 Research Questions and Hypotheses:

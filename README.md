@@ -10,8 +10,8 @@ Hypotheses: Different input factors and most fitted models will be applied when 
 
 ## Data Overview
 Datasets Introduction:
-The “MI QC data” includes the Powder MI value for each 4-hour interval and the product grade (product type) for every 1-minute interval. The Powder MI value is defined as the measure of the ease of melt flow of thermoplastic material in grams over the course of 10 min at a certain standard temperature (ie, 230°C) and it is a direct indicator to reflect the product quality. (R. Singh, ... M.S.J. Hashmi, in Reference Module in Materials Science and Materials Engineering, 2017) The lower the MI values, the higher the molecular weight. The tester measures the Powder MI every 4 hours.
-The “Tag Data” has the observation time and material quantities of the production line R700 in Texas for each 1-minute interval. The “Tag data” has over 470k rows of observations from 09/01/2018 to 07/27/2019 and has 58 material variables.
+The “MI QC data” includes the Powder MI value for each 4-hour interval and the product grade (product type) for every 1-minute interval. The tester measures the Powder MI every 4 hours.
+The “Tag Data” has the observation time and material quantities of the production for each 1-minute interval.
 Datasets Quality Issues:
 When the team receives the two datasets, several data quality issues are identified. First, there are only 1920 rows with MI values after combining two datasets. Also, more than 475k rows of data miss the target variables. Only 0.2% of the data can be used as training data to the model. Using 0.2% data with MI values to predict the MI values of the rest 99.8% data will affect the accuracy of the result. The number of MI values may be not enough to train and accurately predict the fitted MI. Additionally, the "Tag Data" dataset contains 58 factors/predictors. It is urgent to figure out which factors will affect the target result extremely. The missing interpretation of factors also impedes the understanding of the project and objective.
 
